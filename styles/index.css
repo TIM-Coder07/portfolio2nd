@@ -157,6 +157,7 @@ main{
         /* <!-- what I do (skill section)*********** --> */
 .do{
     text-align: center;
+    
 }
 
 .do h3{
@@ -180,6 +181,10 @@ main{
     margin-top: 50px;
 }
 
+.skill_sec{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 .skills_con{
     display: flex;
@@ -190,4 +195,88 @@ main{
 .skill_des{
     font-size: 16px;
     color: #757575;
+}
+
+/* resume part css */
+.resume{
+    padding: 50px 50px;
+    border-radius: 10px;
+}
+
+.res_titel{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+
+.res_con{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.titel_first_col{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.edu_titel{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.institute{
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.edu_des{
+    font-size: 16px;
+}
+
+.res_btn {
+  margin: 20px auto;
+  display: block;
+}
+
+/* *******.contact_con */
+footer{
+    padding: 130px 130px;
+}
+
+.contact_con{
+    display: flex;
+    gap: 100px;
+}
+
+.con_icon a img{
+    margin-left: 15px;
+}
+
+.con_des{
+    font-size: 16;
+    text-align: justify;
+}
+
+.sec_con{
+    width: 50%;
+}
+
+.from_head{
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer input[type = "text"], footer input[type ="email"], footer textarea{
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
